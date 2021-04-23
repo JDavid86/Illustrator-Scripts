@@ -1,3 +1,3 @@
-// Script for CLOSE and SAVE ALL opened files
+// Script for CLOSE ALL and NOT SAVE opened files
 
 while(documents.length > 0) {activeDocument.close(SaveOptions.DONOTSAVECHANGES)};
